@@ -1,0 +1,3 @@
+[submodule "AMOSUM"]
+	path = AMOSUM
+	url = https://github.com/instafiore/AMOSUM.git
