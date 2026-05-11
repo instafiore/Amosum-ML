@@ -1,0 +1,10 @@
+Date: Thu Apr 2 11:27:38 AM UTC 2026
+Node: coppernode22
+Input: /home/guests/mmacri/AMOSUM/benchmarks/GraphColouring/test-instances-gc/0018-graph_colouring-130-0_4992.asp
+GCC: gcc (conda-forge gcc 14.3.0-18) 14.3.0
+Kernel: 5.15.0-131-generic
+MemTotal: 528004312 kB
+model name : Intel(R) Xeon(R) Silver 4314 CPU @ 2.40GHz cache size : 24576 KB
+Cpus_allowed:	00000300
+resctrl cache mask: L3:0=010;1=fff
+Slurm Job ID: 5409570_389

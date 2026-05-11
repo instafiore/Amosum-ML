@@ -1,0 +1,21 @@
+# started on Thu Apr  2 11:27:38 2026
+
+
+ Performance counter stats for 'clingo /home/guests/mmacri/AMOSUM/benchmarks/GraphColouring/encoding-plain-amo.asp /dev/shm/37498520-2e81-11f1-ac62-000c298f4621/input/0017-graph_colouring-130-0_2496.asp':
+
+      1,204,850.34 msec task-clock                #    1.000 CPUs utilized          
+    15,052,617,241      cache-references          #   12.493 M/sec                  
+     8,686,559,926      cache-misses              #   57.708 % of all cache refs    
+ 2,891,623,208,622      cycles                    #    2.400 GHz                    
+10,337,181,421,627      instructions              #    3.57  insn per cycle         
+ 1,446,786,235,883      branches                  #    1.201 G/sec                  
+            58,161      faults                    #   48.272 /sec                   
+                 1      migrations                #    0.001 /sec                   
+             2,041      context-switches          #    1.694 /sec                   
+
+    1204.942718924 seconds time elapsed
+
+    1204.747822000 seconds user
+       0.103998000 seconds sys
+
+

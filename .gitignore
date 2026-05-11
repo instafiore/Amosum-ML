@@ -1,1 +1,7 @@
 *.zip
+amosum-ml/training_benchmarks_results/
+amosum-ml/ijcai_benchmarks_results/*
+!amosum-ml/ijcai_benchmarks_results/AMOSUM_GraphColouring/
+amosum-ml/ijcai_benchmarks_results/AMOSUM_GraphColouring/*
+!amosum-ml/ijcai_benchmarks_results/AMOSUM_GraphColouring/config2/
+!amosum-ml/ijcai_benchmarks_results/AMOSUM_GraphColouring/results.csv
