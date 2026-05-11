@@ -53,11 +53,17 @@ clingo + AMOSUM  ──►  Solution
 
 ---
 
+## Switch to branch aspocp
+```bash
+git checkout -b aspocp origin/aspocp
+```
+
 ## Installation
 
 ### 1. Install the AMOSUM propagator
 
 ```bash
+git submodule update --init --recursive
 pip install AMOSUM/.
 bash AMOSUM/install.sh
 ```
