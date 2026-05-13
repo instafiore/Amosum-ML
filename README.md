@@ -127,11 +127,11 @@ Building the full training dataset involves two steps:
 ### Step 1 — Extract MEASP features and create dataset measp
 
 ```bash
-python extract_feature.py
+python amosum-ml/feature_measp/extract_feature.py
 ```
 
 ```bash
-python dataset_building_measp_split.py
+python amosum-ml/dataset_builder/preprocessed/dataset_building_measp_split.py
 ```
 
 The first script extracts the main Me-Asp features from each instance and the second one creates the preprocessed dataset connected to this extraction.
@@ -139,7 +139,7 @@ The first script extracts the main Me-Asp features from each instance and the se
 ### Step 2 — Build the complete dataset
 
 ```bash
-python feature_extractor_amosum.py
+python amosum-ml/dataset_builder/feature_extractor_amosum.py
 ```
 
 This merges the MEASP features with AMO-specific features and produces the final dataset splits used for training and evaluation.
@@ -148,6 +148,13 @@ This merges the MEASP features with AMO-specific features and produces the final
 
 ### Step 3 - Training the models
 
+To train the machine learning models and reproduce all the proposed architectures, you need to run the Jupyter Notebook located in the `training-selectors` directory:
+
+```bash
+cd training-selectors
+jupyter notebook amo-eosum-selectors.ipynb
+```
+Execute the cells to train the models and save the `.joblib` files locally.
 
 ## Experiments & Evaluation
 
